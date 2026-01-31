@@ -17,15 +17,34 @@ export default function Home() {
       </p>
 
       <div className="mt-8 w-full max-w-sm space-y-4">
-        <a className="block w-full rounded-xl bg-white text-black py-3 font-semibold text-center">
+
+        <a
+          href="https://www.youtube.com/@PriyanshuRax"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full rounded-xl bg-white text-black py-3 font-semibold text-center"
+        >
           YouTube
         </a>
-        <a className="block w-full rounded-xl bg-zinc-800 py-3 font-semibold text-center">
+
+        <a
+          href="https://www.instagram.com/priyanshu.rax_/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full rounded-xl bg-zinc-800 py-3 font-semibold text-center"
+        >
           Instagram
         </a>
-        <a className="block w-full rounded-xl bg-zinc-800 py-3 font-semibold text-center">
+
+        <a
+          href="https://twitter.com/priyanshu"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full rounded-xl bg-zinc-800 py-3 font-semibold text-center"
+        >
           Twitter / X
         </a>
+
       </div>
 
       <p className="text-xs text-gray-600 mt-10">
@@ -35,4 +54,3 @@ export default function Home() {
     </main>
   );
 }
-
