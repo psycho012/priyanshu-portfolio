@@ -71,7 +71,7 @@ export default function Home() {
 
           <motion.a
             whileHover={{ scale: 1.05 }}
-            href="https://twitter.com/priyanshu"
+            href="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 rounded-xl bg-zinc-800 py-3 font-semibold"
